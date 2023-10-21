@@ -1,8 +1,27 @@
-# React + Vite
+# Simple Code Editor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- This is a simple code editor with basic indentation functionality.
+- Indentation works only with :
+```
+{
+    var i = 2;
+}
+```
+- Can copy code to clipboard.
+- Lock/Unlock functionality.
 
-Currently, two official plugins are available:
+## Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Live Link](https://simple-code-editor-fdaa9b.netlify.app/)
+
+## How to run locally
+
+- Open terminal
+- run the following commands one by one
+
+```shell
+git clone https://github.com/NayanBramhane/code-editor.git
+cd code-editor
+npm i
+npm start
+```
