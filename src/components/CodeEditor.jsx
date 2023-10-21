@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./CodeEditor.css";
+import "./codeEditor.css";
 
 const CodeEditor = () => {
   const [code, setCode] = useState("");
