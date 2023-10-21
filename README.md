@@ -16,6 +16,7 @@
 
 ## How to run locally
 
+> Requires latest NodeJS installed in your system.
 - Open terminal
 - run the following commands one by one
 
