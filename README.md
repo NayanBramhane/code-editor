@@ -9,6 +9,7 @@
 ```
 - Can copy code to clipboard.
 - Lock/Unlock functionality.
+- Can save the code locally.
 
 ## Live Site
 
