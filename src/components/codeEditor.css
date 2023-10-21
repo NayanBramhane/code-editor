@@ -1,0 +1,56 @@
+.code-editor {
+  border-radius: 0.4rem;
+  border: 0.1rem solid #ccc;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  height: 90%;
+  background-color: rgb(69, 69, 149);
+}
+
+.code-toolbar {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0.1rem;
+}
+
+.code-textarea {
+  border-radius: 0.1rem;
+  border: 0.1rem solid #ccc;
+  font-family: monospace;
+  height: 75vh;
+  padding: 0.2rem;
+  width: 100%;
+  font-size: 1.2rem;
+}
+.code-textarea::selection {
+  color: #fff;
+  background-color: rgb(194, 102, 227);
+}
+
+.btn {
+  border-radius: 2rem;
+  border: solid 0.1rem black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn__green {
+  background-color: green;
+  color: #fff;
+}
+
+.btn__violet {
+  background-color: blueviolet;
+  color: #fff;
+}
+.btn__aqua {
+  background-color: aqua;
+}
